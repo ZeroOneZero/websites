@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About</title>
+<link href="/assets/css/about.min.css" rel="stylesheet" />
+<script src="https://apis.google.com/../js/client:platform.js" async defer></script>
+<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+<div class="left-col">
+<div class="intrude-less">
+<header id="header" class="inner">
+<div class="profilepic"> <img src="/assets/imgs/profile-small.jpg" alt="Profile Picture"></div>
+<h1><a href="/about">Robert Adams Jr</a></h1>
+<p style="font-size: 16px;" class="subtitle">1&amp;0 Computer Care</p>
+<nav id="main-nav">
+<ul class="main-navigation">
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/bb" target="_blank">BananaBread</a></li>
+<li><a href="/HexGL" target="_blank">HexGL</a></li>
+<li><a href="http://s.somethingfake.com:25560" target="_blank">Minecraft Spigot</a></li>
+<li><a href="http://s1.somethingfake.com:25560" target="_blank">Minecraft Spigot 1</a></li>
+<li><a href="http://s2.somethingfake.com:25560" target="_blank">Minecraft Spigot 2</a></li>
+</ul>
+</nav>
+<nav id="sub-nav">
+<div class="social"> 
+<a class="google" href="https://plus.google.com/115701069100838605281" title="Google+" target="_blank">Google+</a> 
+<a class="twitter" href="https://twitter.com/RobertAdamsJr2" title="Twitter" target="_blank">Twitter</a> 
+<a class="github" href="https://github.com/zeroonezero" title="GitHub" target="_blank">GitHub</a> 
+<a class="linkedin" href="https://www.linkedin.com/in/1and0computercare" title="LinkedIn" target="_blank">LinkedIn</a>
+<a class="facebook" href="https://www.facebook.com/crazypants010" title="Facebook" target="_blank">Facebook</a></div>
+</nav>
+</header>
+</div>
+</div>
+
+<iframe src="https://www.twitch.tv/crazypants010/chat?popout=" frameborder="0" scrolling="no" height="500" width="350"></iframe>
+
+<div class="mid-col">
+<div class="mid-col-container">
+<iframe src="https://www.twitch.tv/crazypants010/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/crazypants010?tt_medium=live_embed&tt_content=text_link" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;">Watch live video from crazypants010 on www.twitch.tv</a></div>
+<div style="text-align:right; font-size:16px; margin-right:100px;" class="paragraph">
+<br>
+<br>Robert Adams Jr (Owner)<br>1&amp;0 Computer Care<br>
+<a href="https://www.google.com/maps/place/Yuma,+AZ+85364/" target="_blank">Yuma, AZ 85364</a>
+<br>(636) 465-9420<br>
+<a href="mailto:zadmin@zero-one-zero.com">zadmin@zero-one-zero.com</a>
+<br>
+<a>https://www.zero-one-zero.com/</a></div>
+<footer id="footer" class="inner">
+<p> Copyright © 2015 - 1&amp;0 Computer Care - <span class="credit">Powered by <a href="#">Awesomeness</a></span> </p>
+<div id="gConnect">
+<h2 class="fade out brief big">Sign-in to continue.</h2>
+  <button class="g-signin"
+      data-scope="https://www.googleapis.com/auth/plus.login"
+      data-requestvisibleactions="http://schemas.google.com/AddActivity"
+      data-clientId="883661965978-3m9l80hqbc7e8qvk0eagdp127ts814jk.apps.googleusercontent.com"
+      data-callback="onSignInCallback"
+      data-theme="dark"
+      data-cookiepolicy="single_host_origin">
+  </button>
+</div>
+</footer>
+</div>
+</div>
+<nav class="menu" id="theMenu">
+<div class="menu-wrap">
+<h4 class="logo" style="font-size: 18px; color: red;">About Me</h4>
+<a href="/bio" target="_blank">Bio Page</a>
+<a href="/weebly" target="_blank">Work Page</a> 
+<a href="/vids">Videos</a>
+<a href="/music"target="_blank">Music</a>
+<div style="text-align:center">
+<a href="https://www.facebook.com/crazypants010" target="_blank"><i class="fa fa-facebook"></i></a>
+<a href="https://twitter.com/RobertAdamsJr2" target="_blank"><i class="fa fa-twitter"></i></a>
+<a href="https://github.com/zeroonezero" target="_blank"><i class="fa fa-github"></i></a> 
+<a href="https://plus.google.com/115701069100838605281" target="_blank"><i class="fa fa-google-plus"></i></a>
+<a href="https://www.linkedin.com/in/1and0computercare" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+<a class="g-hangout" data-render="createhangout"></a></div>
+<div id="menuToggle"><i class="fa fa-bars"></i></div>
+</nav>
+<script type="text/javascript">
+function onSignInCallback(a){helper.onSignInCallback(a)}var helper=function(){return{onSignInCallback:function(a){gapi.client.load("plus","v1").then(function(){$("#authResult").html("Auth Result:<br/>");for(var b in a)$("#authResult").append(" "+b+": "+a[b]+"<br/>");a.access_token?($("#authOps").show("slow"),$("#gConnect").hide()):a.error&&(console.log("There was an error: "+a.error),$("#authResult").append("Logged out"),$("#authOps").hide("slow"),$("#gConnect").show()),console.log("authResult",a)})},disconnect:function(){$.ajax({type:"GET",url:"https://accounts.google.com/o/oauth2/revoke?token="+gapi.auth.getToken().access_token,async:!1,contentType:"application/json",dataType:"jsonp",success:function(a){console.log("revoke response: "+a),$("#authOps").hide(),$("#authResult").empty(),$("#gConnect").show()},error:function(a){console.log(a)}})}}}();$(document).ready(function(){$("#disconnect").click(helper.disconnect),$("#loaderror").hide()});
+</script>
+<script src="/assets/js/nprogress.js"></script>
+<script>$("body").show();$(".version").text(NProgress.version);NProgress.start();setTimeout(function(){NProgress.done();$(".fade").removeClass("out")},2000)</script>
+<script>(function(){$("#menuToggle, .menu-close").on("click",function(){$("#menuToggle").toggleClass("active");$("body").toggleClass("body-push-toleft");$("#theMenu").toggleClass("menu-open")})})(jQuery)</script>
+</body>
+</html>
