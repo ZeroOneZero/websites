@@ -1,8 +1,8 @@
 @import "font.css";
 @font-face{
 	font-family:'FontAwesome';
-	src:url(/assets/fonts/fontawesome/fontawesome-webfont.eot);
-	src:url(/assets/fonts/fontawesome/fontawesome-webfont.eot) format("embedded-opentype"),url(/assets/fonts/fontawesome/fontawesome-webfont.woff2) format("woff2"),url(/assets/fonts/fontawesome/fontawesome-webfont.woff) format("woff"),url(/assets/fonts/fontawesome/fontawesome-webfont.ttf) format("truetype"),url(/assets/fonts/fontawesome/fontawesome-webfont.svg) format("svg");
+	src:url('/assets/fonts/fontawesome/fontawesome-webfont.eot');
+	src:url('/assets/fonts/fontawesome/fontawesome-webfont.eot') format("embedded-opentype"),url('/assets/fonts/fontawesome/fontawesome-webfont.woff2') format("woff2"),url('/assets/fonts/fontawesome/fontawesome-webfont.woff') format("woff"),url('/assets/fonts/fontawesome/fontawesome-webfont.ttf') format("truetype"),url('/assets/fonts/fontawesome/fontawesome-webfont.svg') format("svg");
 	font-weight:400;
 	font-style:normal
 }
@@ -317,8 +317,8 @@ button::-moz-focus-inner,input::-moz-focus-inner{
 	font-weight:400;
 	font-style:normal;
 	font-family:'codropsicons';
-	src:url(/assets/fonts/codropsicons/codropsicons.eot);
-	src:url(/assets/fonts/codropsicons/codropsicons.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/codropsicons/codropsicons.woff) format("woff"),url(/assets/fonts/codropsicons/codropsicons.ttf) format("truetype"),url(/assets/fonts/codropsicons/codropsicons.svg#codropsicons) format("svg")
+	src:url('/assets/fonts/codropsicons/codropsicons.eot');
+	src:url('/assets/fonts/codropsicons/codropsicons.eot') format("embedded-opentype"),url('/assets/fonts/codropsicons/codropsicons.woff') format("woff"),url('/assets/fonts/codropsicons/codropsicons.ttf') format("truetype"),url('/assets/fonts/codropsicons/codropsicons.svg') format("svg")
 }
 
 *,:after,:before{
@@ -369,8 +369,8 @@ button:hover,button:active{
 
 @font-face{
 	font-family:'typicons';
-	src:url(/assets/fonts/typicons/typicons.eot);
-	src:url(/assets/fonts/typicons/typicons.eot?#iefix) format("embedded-opentype"),url(/assets/fonts/typicons/typicons.ttf) format("truetype"),url(/assets/fonts/typicons/typicons.woff) format("woff"),url(/assets/fonts/typicons/typicons.svg#typicons) format("svg");
+	src:url('/assets/fonts/typicons/typicons.eot');
+	src:url('/assets/fonts/typicons/typicons.eot') format("embedded-opentype"),url('/assets/fonts/typicons/typicons.ttf') format("truetype"),url('/assets/fonts/typicons/typicons.woff') format("woff"),url('/assets/fonts/typicons/typicons.svg') format("svg");
 	font-weight:400;
 	font-style:normal
 }
