@@ -1,0 +1,12 @@
+RewriteEngine On
+# This will enable the Rewrite capabilities
+
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# This will transfer the Host to www
+
+RewriteCond %{HTTPS} !=on
+# This checks to make sure the connection is not already HTTPS
+
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+# SERVERNAME would access all previous rules
