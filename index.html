@@ -58,10 +58,7 @@
           <a class="facebook" href="https://www.facebook.com/crazypants010" target="_blank" title="Facebook">Facebook</a> </div>
         </nav>
 	</nav><!-- /menu -->
- </div><!-- /perspective --> 
-<script type="text/javascript">
-!function(t,o,p){function e(){var t=o.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==o.location.protocol?"https":"http")+":"+p,o.body.appendChild(t)}t.spotId="0f75a66668812bb468bfc458fcf36de8",t.spotName="",t.allowDesktop=!0,t.allowMobile=!1,t.containerId="spot-im-root",e()}(window.SPOTIM={},document,"//www.spot.im/embed/scripts/launcher.js");
-</script><!-- /SpotIM --> 
+ </div><!-- /perspective -->
 <script src="/assets/js/class-npro-menu.min.js"></script>
 <script type="text/javascript">
 function onSignInCallback(a){helper.onSignInCallback(a)}var helper=function(){return{onSignInCallback:function(a){gapi.client.load("plus","v1").then(function(){$("#authResult").html("Auth Result:<br/>");for(var b in a)$("#authResult").append(" "+b+": "+a[b]+"<br/>");a.access_token?($("#authOps").show("slow"),$("#gConnect").hide()):a.error&&(console.log("There was an error: "+a.error),$("#authResult").append("Logged out"),$("#authOps").hide("slow"),$("#gConnect").show()),console.log("authResult",a)})},disconnect:function(){$.ajax({type:"GET",url:"https://accounts.google.com/o/oauth2/revoke?token="+gapi.auth.getToken().access_token,async:!1,contentType:"application/json",dataType:"jsonp",success:function(a){console.log("revoke response: "+a),$("#authOps").hide(),$("#authResult").empty(),$("#gConnect").show()},error:function(a){console.log(a)}})}}}();$(document).ready(function(){$("#disconnect").click(helper.disconnect),$("#loaderror").hide()});
@@ -72,5 +69,6 @@ $("body").show();$(".version").text(NProgress.version);NProgress.start();setTime
 <script>
 (function(){$("#menuToggle, .menu-close").on("click",function(){$("#menuToggle").toggleClass("active");$("body").toggleClass("body-push-toleft");$("#theMenu").toggleClass("menu-open")})})(jQuery)
 </script><!-- /Menu -->
+<script type="text/javascript">!function(t,o,p){function e(){var t=o.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"==o.location.protocol?"https":"http")+":"+p,o.body.appendChild(t)}t.spotId="61dc7ae440e45bc7eb5c62c71c424b89",t.spotName="",t.allowDesktop=!0,t.allowMobile=!1,t.containerId="spot-im-root",e()}(window.SPOTIM={},document,"//www.spot.im/embed/scripts/launcher.js");</script><!-- /SpotIM -->
 </body>
 </html>
